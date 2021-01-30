@@ -4,6 +4,7 @@
     "scripts": {
         "serve:ruby:un": "ruby -run -ehttpd ./docs/ -p8080",
         "run:node": "node --help",
+        "run:deno": "deno --help",
         "test": "echo ok"
     },
     "devDependencies": {
