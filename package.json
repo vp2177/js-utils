@@ -1,13 +1,11 @@
 {
-    "name": "@vp2177/js-utils",
-    "private":true,
-    "scripts": {
-        "serve:ruby:un": "ruby -run -ehttpd ./docs/ -p8080",
-        "run:node": "node --help",
-        "run:deno": "deno --help",
-        "test": "echo ok"
-    },
-    "devDependencies": {
-
-    }
+  "name": "@vp2177/js-utils",
+  "private": true,
+  "scripts": {
+    "serve:ruby:un": "ruby -run -ehttpd ./docs/ -p8080",
+    "run:node": "node --help",
+    "run:deno": "deno --help",
+    "test": "echo ok"
+  },
+  "devDependencies": {}
 }
