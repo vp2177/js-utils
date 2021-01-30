@@ -2,7 +2,9 @@
     "compilerOptions": {
         "strict": true,
         "noUncheckedIndexedAccess": true,
-        "checkJs": true
+        // "checkJs": true,
+        "allowJs":  true,
+        "noEmit": true
     },
     "exclude": []
 }
