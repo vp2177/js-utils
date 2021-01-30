@@ -10,4 +10,4 @@ class A extends L.LitElement {
 }
 customElements.define("my-a", A);
 
-document.body.appendChild(document.createElement("my-a"))
+document.body.appendChild(document.createElement("my-a"));
