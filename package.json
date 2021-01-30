@@ -1,0 +1,12 @@
+{
+    "name": "@vp2177/js-utils",
+    "private":true,
+    "scripts": {
+        "serve:ruby:un": "ruby -run -ehttpd ./docs/ -p8080",
+        "run:node": "node --help",
+        "test": "echo ok"
+    },
+    "devDependencies": {
+
+    }
+}
