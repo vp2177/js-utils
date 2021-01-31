@@ -1,2 +1,2 @@
-const route = location.search.replace(/^\?/, "") || "demo"
-import(`./${route}.js`)
+const route = location.search.replace(/^\?/, "") || "demo";
+import(`./${route}.js`);
