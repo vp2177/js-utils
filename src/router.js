@@ -1,3 +1,2 @@
-const route = location.search.replace(/^\?/, "")
-console.debug(route)
+const route = location.search.replace(/^\?/, "") || "demo"
 import(`./${route}.js`)
