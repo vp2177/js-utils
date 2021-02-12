@@ -1,11 +1,12 @@
 {
   "name": "@vp2177/js-utils",
   "private": true,
+  "type": "module",
   "scripts": {
     "serve:ruby": "ruby -run -ehttpd ./ -p8080",
-    "run:node": "node --help",
+    "run:node": "node ?",
     "run:deno": "deno --help",
-    "test": "jest?"
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "26.6.3",
