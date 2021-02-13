@@ -1,7 +1,7 @@
-import {describe, it, expect, } from "@jest/globals"
+import { describe, it, expect } from "@jest/globals";
 
 describe("Jest", () => {
-    it("works", () => {
-        return Promise.resolve(true)
-    })
-})
+  it("works", () => {
+    return Promise.resolve(true);
+  });
+});
