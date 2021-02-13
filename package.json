@@ -6,7 +6,8 @@
     "serve:ruby": "ruby -run -ehttpd ./ -p8080",
     "run:node": "node ?",
     "run:deno": "deno --help",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@babel/preset-env": "7.12.16",
