@@ -9,8 +9,8 @@
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
-	"extensions": [
-	],
+	// "extensions": [
+	// ],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// "postCreateCommand": "yarn install",
