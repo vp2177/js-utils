@@ -1,8 +1,7 @@
 {
-	"name": "Node LTS",
+	"name": "Node",
 	"build": {
-		"dockerfile": "Dockerfile",
-		"args": {  }
+		"dockerfile": "Dockerfile"
 	},
 
 	// Set *default* container specific settings.json values on container create.

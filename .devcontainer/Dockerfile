@@ -1,4 +1,3 @@
-# ARG VARIANT="14-buster"
 FROM node:lts
 
 # [Optional] Uncomment this section to install additional OS packages.
