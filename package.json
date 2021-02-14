@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "serve:ruby": "ruby -run -ehttpd ./ -p8080",
-    "serve:npm:http-server": "?http-server -c-1",
+    "serve:npm:http-server": "http-server -c-1",
     "run:node": "node ?",
     "run:deno": "deno --help",
     "test": "jest",
