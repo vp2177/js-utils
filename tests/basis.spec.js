@@ -7,6 +7,7 @@ describe("Basis", () => {
     expect(typeof popAtRandom(a)).toBe("number")
     expect(a).toHaveLength(3) 
     
+    expect(popAtRandom([])).toBeUndefined()
 
   });
 });
