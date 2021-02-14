@@ -5,7 +5,7 @@ import { appendRoot } from "./append-root.js";
 export
 class A extends L.LitElement {
   render() {
-    // TODO: Renders [object Object] when loaded from jsDelivr?
+    // TODO: Renders [object Object] when loaded from jsDelivr
     const res = L.html`<mark>Lit</mark>`;
     console.debug(res);
     return res;
@@ -13,5 +13,9 @@ class A extends L.LitElement {
 }
 customElements.define("my-a", A);
 
-appendRoot("my-a"); // TODO: Only on init..
+export function __init() {
+  appendRoot("my-a"); 
+
+}
+
 
