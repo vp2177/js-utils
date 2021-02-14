@@ -6,7 +6,7 @@ describe("DOM utils", () => {
     const el = appendRoot()
     expect(el). toBeInstanceOf(HTMLElement); 
 
-    const id = "TODO: Make this random"
+    const id = Math.random().toString(36) 
     el.id = id
     expect(document. getElementById(id)).toBe(el)
   });
