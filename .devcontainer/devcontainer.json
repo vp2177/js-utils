@@ -1,5 +1,4 @@
 {
-	"name": "Node",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
