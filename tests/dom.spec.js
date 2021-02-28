@@ -3,11 +3,11 @@ import { appendRoot } from "../append-root.js";
 
 describe("DOM utils", () => {
   it("appendRoot()", () => {
-    const el = appendRoot()
-    expect(el). toBeInstanceOf(HTMLElement); 
+    const el = appendRoot();
+    expect(el).toBeInstanceOf(HTMLElement);
 
-    const id = Math.random().toString(36) 
-    el.id = id
-    expect(document. getElementById(id)).toBe(el)
+    const id = Math.random().toString(36);
+    el.id = id;
+    expect(document.getElementById(id)).toBe(el);
   });
 });

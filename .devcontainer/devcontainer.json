@@ -1,16 +1,16 @@
 {
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
 
-	// Set *default* container specific settings.json values on container create.
-	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
-	},
-	// "extensions": [
-	// ],
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-	// "postCreateCommand": "yarn install",
-	"remoteUser": "node"
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  // "extensions": [
+  // ],
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+  // "postCreateCommand": "yarn install",
+  "remoteUser": "node"
 }

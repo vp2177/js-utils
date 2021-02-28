@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container: node:lts
-      
+
     # strategy:
     #   matrix:
     #     node-version: [10.x, 15.x]
