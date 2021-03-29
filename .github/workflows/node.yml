@@ -1,26 +1,17 @@
 name: Node.js CI
 
 on:
-  # push:
-  #   branches: [main]
-  # pull_request:
-  #   branches: [main]
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  build:
+  xoxo:
     runs-on: ubuntu-latest
-    container: node:lts
-
-    # strategy:
-    #   matrix:
-    #     node-version: [10.x, 15.x]
-
+    container: node:15.12.0
     steps:
       - uses: actions/checkout@v2
-      # - name: Use Node.js ${{ matrix.node-version }}
-      #   uses: actions/setup-node@v2
-      #   with:
-      #     node-version: ${{ matrix.node-version }}
       - run: node --version
       - run: yarn install --frozen-lockfile
       - run: yarn test
