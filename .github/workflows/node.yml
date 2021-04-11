@@ -9,7 +9,6 @@ on:
 jobs:
   xoxo:
     runs-on: ubuntu-latest
-    container: node:15.12.0
     steps:
       - uses: actions/checkout@v2
       - run: node --version
