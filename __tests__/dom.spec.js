@@ -1,13 +1,21 @@
 import { describe, it, expect } from "@jest/globals";
 import { appendRoot } from "../append-root.js";
+import { _getRoute } from "../demo-router.js";
 
 describe("DOM utils", () => {
-  it("appendRoot()", () => {
-    const el = appendRoot();
-    expect(el).toBeInstanceOf(HTMLElement);
-
-    const id = Math.random().toString(36);
-    el.id = id;
-    expect(document.getElementById(id)).toBe(el);
+  it("appendRoot() return value", () => {
+    expect( appendRoot()). toBeInstanceOf(HTMLElement);
   });
+  it("appendRoot() appends", () => {
+    appendRoot("select");
+
+    expect(document.querySelector("select") ).toBeDefined()
+  });
+
+  it("demo-router's route", () => {
+
+    expect(_getRoute() ).toBe("foo")
+  });
+
+
 });
