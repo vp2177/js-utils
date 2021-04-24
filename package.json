@@ -6,7 +6,6 @@
     "serve:ruby": "ruby -run -ehttpd . -p8080",
     "serve:http-server": "http-server -c-1",
     "run:node": "node ?",
-    "run:deno": "deno --help",
     "format": "prettier -w .",
     "test": "jest",
     "test:watch": "jest --watch"
