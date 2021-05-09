@@ -1,4 +1,4 @@
 {
-    "dockerFile": "Dockerfile",
-	"remoteUser": "node"
+  "dockerFile": "Dockerfile",
+  "remoteUser": "node"
 }

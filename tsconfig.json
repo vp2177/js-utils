@@ -1,8 +1,8 @@
 {
-    "compilerOptions": {
-        "strict": true,
-        "noUncheckedIndexedAccess": true,
-        "checkJs": true
-    },
-    "include": ["utils/", "docs/"]
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "checkJs": true
+  },
+  "include": ["utils/", "docs/"]
 }
