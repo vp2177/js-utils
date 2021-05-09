@@ -1,0 +1,21 @@
+@keyframes Blueness {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: mediumblue;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+.blueBox {
+
+    width: 60vmin;
+    height: 60vmin;
+    margin: auto;
+    animation-name: Blueness;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;    
+}
