@@ -1,0 +1,6 @@
+{
+    "scripts": {"format": "prettier -w ."},
+    "devDependencies": {
+        "prettier": "2.2.1"
+    }
+}
