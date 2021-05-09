@@ -2,8 +2,11 @@
   0% {
     background-color: black;
   }
-  50% {
+  33% {
     background-color: mediumblue;
+  }
+  66% {
+    background-color: crimson;
   }
   100% {
     background-color: black;
@@ -13,8 +16,9 @@
 .blueBox {
   width: 60vmin;
   height: 60vmin;
+  border-radius: 3px;
   margin: auto;
   animation-name: Blueness;
   animation-iteration-count: infinite;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
